@@ -8,8 +8,9 @@
         @vite('resources/css/app.css')
     </head>
 
-    <body>
+    <body class="bg-slate-50">
         @yield('content')
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </body>
 
 </html>
